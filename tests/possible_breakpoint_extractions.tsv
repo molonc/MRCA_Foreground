@@ -1,0 +1,21 @@
+prev_row	row	start	end	label	returns	Notes
+NA	ARM	100	200	NA	NA	Arms dont technically have breakpoints
+TELO-BP	BP-CENTRO	100	200	NA	NA	Breakpoint will not be noted here because it should be aptured by TELO-BP
+NA	BP-CENTRO	100	200	start	100	Breakpoint is a start
+INTER	BP-CENTRO	100	200	NA	NA	Breakpoint will not be noted here becuse it should be captured by INTER
+NA	BP-TELO	100	200	start	100	
+CENTRO-BP	BP-TELO	100	200	NA	NA	Breakpoint wioll not be noted here beacuse it should becapture by CENTRO-BP
+INTER	BP-TELO	100	200	NA	NA	Breakpoint will not be noted here becuse it should be captured by INTER
+NA	CENTRO-BP	100	200	end	200	
+NA	INTER	100	200	start	100,200	
+CENTRO-BP	INTER	100	200	end	100,200	
+INTER	INTER	100	200	end	100,200	
+TELO-BP	INTER	100	200	end	100,200	
+NA	NA	100	200	NA	NA	current ROW is NA, not segment
+INTER	NA	100	200	NA	NA	If we are in NA, and previous row is inner, NA
+BP-CENTRO	NA	100	200	NA	NA	current ROW is NA, not segment
+CENTRO-BP	NA	100	200	NA	NA	current ROW is NA, not segment
+TELO-BP	NA	100	200	NA	NA	current ROW is NA, not segment
+BP-TELO	NA	100	200	NA	NA	current ROW is NA, not segment
+ARM	NA	100	200	NA	NA	current ROW is NA, not segment
+NA	TELO-BP	100	200	end	200	Start of chromosome. Breakpoint is in end column

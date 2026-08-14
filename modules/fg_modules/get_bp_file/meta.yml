@@ -1,0 +1,12 @@
+name: get_bp_file
+description: >
+  Extracts the exact breakpoint file (see README "Breakpoint file" section)
+  from the annotated segments — one of the pipeline's main outputs — for
+  total and allele-specific (A/B) states.
+script: get_bp_file.R
+input:
+  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - segs_bp_anno / _A / _B: Annotated segments from annotate_bps (total, allele A, allele B)
+  - breakpoint_functions: helper/breakpoint_file_functions.R
+output:
+  - master: tuple of (..., <library_id>-<sample_id>_breakpoint_file.csv.gz, _A.csv.gz, _B.csv.gz)

@@ -1,0 +1,11 @@
+name: get_hdp_file
+description: >
+  Reduces the breakpoint file down to only the true segment breakpoints
+  needed for HDP (see README "HDP file" section), for total and
+  allele-specific (A/B) states.
+script: inline R script (see main.nf)
+input:
+  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - reads_2, segs_bp_anno / _A / _B, breakpoint_functions: From annotate_bps / get_df
+output:
+  - master: tuple of (..., <library_id>-<sample_id>_hdp_segs.csv.gz, _A.csv.gz, _B.csv.gz)

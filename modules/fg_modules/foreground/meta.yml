@@ -1,0 +1,13 @@
+name: foreground
+description: >
+  Computes copy number changes relative to each cell's most recent common
+  ancestor in the MEDICC2 tree ("foreground" state), identifying gains and
+  losses along branches.
+script: foreground_ancestor.R
+input:
+  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - reads, alleles, metrics, hscn: Passthrough
+  - tree: MEDICC2 tree (final_tree.new)
+  - cnprofiles: MEDICC2 copy number profiles (final_cn_profiles.tsv)
+output:
+  - master: tuple of (..., <library_id>_seg.csv.gz) with foreground state per segment

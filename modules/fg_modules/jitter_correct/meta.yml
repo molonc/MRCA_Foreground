@@ -1,0 +1,15 @@
+name: jitter_correct
+description: >
+  Runs MSPCF-based segmentation with jitter correction (Matt Myers' jitter fix
+  script) on the AnnData produced by preprocess_medicc2, using centromere/
+  telomere locations to bound segments, producing MEDICC2-ready input segments.
+script: compute_segments_mspcf.py
+input:
+  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - reads, alleles, metrics, hscn, all_nnd, punish: Passthrough
+  - adata: AnnData from preprocess_medicc2
+  - cell_list: MEDICC2 input cell list from preprocess_medicc2
+  - hg19_centro: Centromere location reference (helper/hg19.chr2centro.json)
+output:
+  - master: tuple of (..., output_segments_all.tsv.gz)
+  - centromere_bounds: centromere_bounds.tsv

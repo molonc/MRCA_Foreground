@@ -1,0 +1,12 @@
+name: preprocess_medicc2
+description: >
+  Converts the filtered/punished haplotype-specific copy number table into
+  the AnnData + cell-list inputs MEDICC2 expects.
+script: create_signals_and_cell_files.py
+input:
+  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - reads, alleles, metrics: Passthrough
+  - hscn: Filtered haplotype-specific copy number table
+  - all_nnd, punish: Passthrough
+output:
+  - master: tuple of (..., anndata.h5ad, medicc2_input_cell_list.txt)

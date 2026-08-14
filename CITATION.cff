@@ -1,0 +1,20 @@
+# This CITATION.cff is a placeholder — fill in co-authors, the paper title/journal, and the DOI
+# once available (see https://citation-file-format.github.io/).
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below, and cite MEDICC2 and SIGNALS as described in the README."
+title: medicc2_foreground
+type: software
+authors:
+  - family-names: Adrian-Hamazaki
+    given-names: Alex
+repository-code: "https://github.com/molonc/medicc2_foreground"
+license: MIT
+# preferred-citation:
+#   type: article
+#   title: "<paper title>"
+#   authors:
+#     - family-names: <...>
+#       given-names: <...>
+#   journal: "<journal>"
+#   year: <year>
+#   doi: "<doi>"

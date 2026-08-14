@@ -1,0 +1,15 @@
+name: signals_prep
+description: >
+  Filters cells based on quality metrics (hmmcopy read/metric QC), excluding
+  S-phase and contaminated cells before allele assignment. Optionally keeps
+  only the top-N cells by quality (params.num_cells_returned).
+script: hmmcopy_SIGNALS_prep.R
+input:
+  - sample_id: Sample identifier
+  - library_id: Library identifier
+  - exp_con: Experimental condition
+  - reads_input: hmmcopy reads file (`*_hmmcopy_reads.csv.gz`)
+  - alleles: Allele count file (`*_allele_count.csv.gz`)
+  - metrics: hmmcopy metrics file (`*_hmmcopy_metrics.csv.gz`)
+output:
+  - master: tuple of (sample_id, library_id, exp_con, filtered reads, alleles, metrics)

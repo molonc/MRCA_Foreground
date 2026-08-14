@@ -1,0 +1,12 @@
+private
+work/
+.nextflow.log*
+.nextflow/
+data/
+results/
+symlink_output/
+.azcopy/
+.azcopy_logs/
+*.nfs*
+__pycache__/
+*.pyc

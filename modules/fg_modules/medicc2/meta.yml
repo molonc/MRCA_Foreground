@@ -1,0 +1,14 @@
+name: medicc2
+description: >
+  Runs MEDICC2 (Kaufmann et al., 2022) on the jitter-corrected segments to
+  reconstruct a phylogenetic tree and total/allele-specific copy number
+  profiles. Mode depends on params.tcn: total-copy-number-only, or
+  allele-aware with whole-genome-doubling (WGD) detection.
+script: medicc2 CLI (bioconda medicc2=1.1.2)
+input:
+  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - reads, alleles, metrics, hscn, all_nnd, punish, adata: Passthrough
+  - jitter_segs: Jitter-corrected segments from jitter_correct
+  - tcn_bool: params.tcn - true for total-copy-number-only mode
+output:
+  - master: tuple of (..., final_tree.new, final_cn_profiles.tsv)

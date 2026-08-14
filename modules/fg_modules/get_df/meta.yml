@@ -1,0 +1,16 @@
+name: get_df
+description: >
+  Assembles the full per-read/bin dataframe carrying the new "foreground
+  state" alongside the original absolute copy number, for downstream
+  breakpoint annotation.
+script: assemble_full_df.R
+input:
+  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - reads, alleles, metrics, hscn, tree, cnprofiles: Passthrough
+  - segs: Per-segment foreground states from the foreground module
+  - dummy: helper/dummy_cell.csv (placeholder cell row)
+  - cen_info: helper/centro_telo_locs.csv (centromere/telomere locations)
+  - breakpoint_functions: helper/breakpoint_file_functions.R, sourced by downstream R scripts
+  - tcn_bool: params.tcn
+output:
+  - master: tuple of (..., <library_id>_reads_final.csv.gz, breakpoint_functions)

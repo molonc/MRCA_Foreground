@@ -1,0 +1,6 @@
+cell_id	chr	start	end	state	edge	returns
+cell1	1	1	100	-101	NA	NA
+cell1	1	101	200	0	NA	NA
+cell1	1	201	300	1	INTER	201,300
+cell1	1	301	400	0	NA	NA
+cell1	1	401	500	-100	NA	NA

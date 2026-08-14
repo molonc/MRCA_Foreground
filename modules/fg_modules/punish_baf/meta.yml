@@ -1,0 +1,13 @@
+name: punish_baf
+description: >
+  Evaluates B-allele frequency (BAF) integerness per cell and calculates a
+  punishment/error metric used downstream to flag noisy allele calls.
+script: BAF_punishment_score_metric.R
+input:
+  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - reads, alleles, metrics: Passthrough
+  - hscn: Haplotype-specific copy number table
+  - all_nnd: Per-cell NND table from the nnd module
+output:
+  - master: tuple of (..., punishment_data.csv.gz)
+  - diagnostics: baf_integerness_results.csv.gz, baf_punishment_boxplot.png, epsilon_density.png

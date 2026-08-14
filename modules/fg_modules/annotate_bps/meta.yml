@@ -1,0 +1,14 @@
+name: annotate_bps
+description: >
+  Annotates each segment's edge relative to centromere/telomere boundaries
+  (TELO-BP, BP-CENTRO, INNER, ...) for both total and allele-specific
+  (A/B) foreground states, producing the segment-level breakpoint
+  annotation consumed by get_bp_file and get_hdp_file.
+script: annotate_bps.R
+input:
+  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - reads_2, alleles, metrics, hscn, tree, cnprofiles, segs: Passthrough
+  - breakpoint_functions: helper/breakpoint_file_functions.R
+  - tcn_bool: params.tcn
+output:
+  - master: tuple of (..., <library_id>_segs_bp_anno.csv.gz, _A.csv.gz, _B.csv.gz)

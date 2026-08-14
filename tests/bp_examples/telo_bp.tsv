@@ -1,0 +1,5 @@
+cell_id	chr	start	end	state	edge	returns
+cell1	1	1	100	-101	NA	NA
+cell1	1	101	200	1	TELO-BP	200
+cell1	1	201	300	0	NA	NA
+cell1	1	301	400	-102	NA	NA

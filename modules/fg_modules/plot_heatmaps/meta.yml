@@ -1,0 +1,18 @@
+name: plot_heatmaps
+description: >
+  Generates the pipeline's visualizations: CNV heatmaps (absolute and
+  foreground state), allele-specific ratio/phase heatmaps, and
+  breakpoint-annotated edge-status heatmaps, phylogenetically ordered by
+  the MEDICC2 tree.
+script: plot_heatmaps.R
+input:
+  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - hdp_segs_file / _A / _B: HDP segments from get_hdp_file
+  - reads_2, alleles, metrics, hscn, tree, cnprofiles, segs: Passthrough
+  - segs_bp_anno / _A / _B: Annotated segments from annotate_bps
+  - bp_file / _A / _B: Breakpoint files from get_bp_file
+  - breakpoint_functions: helper/breakpoint_file_functions.R
+  - ref_bins: helper/hg19_annotated_bins.csv
+output:
+  - CNV_ABSOLUTE_<library_id>.png, CNV_FOREGROUND_<library_id>.png,
+    CNV_FOREGROUND_EDGES_<library_id>.png, and allele-specific variants (optional)
