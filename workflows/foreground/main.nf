@@ -93,7 +93,7 @@ workflow FOREGROUND_PIPE {
             ANNOTATE_BPS.out.master
         )
         def annotated_bins  = Channel.fromPath("${projectDir}/helper/hg19_annotated_bins.csv")
-        def heatmap_ch = GET_HDP_FILE.out.master.join(GET_BP_FILE.out.master, by: [0,1,2]).combine(annotated_bins)
+        def heatmap_ch = GET_HDP_FILE.out.master.join(GET_BP_FILE.out.master, by: 0).combine(annotated_bins)
         PLOT_HEATMAPS(
             heatmap_ch
         )

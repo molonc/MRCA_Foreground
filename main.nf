@@ -29,8 +29,7 @@ workflow FOREGROUND {
     // SUBWORKFLOW: Run initialisation tasks
     //
     PIPELINE_INITIALISATION (
-        params.input,
-        params.data_dir
+        params.input
     )
     // PIPELINE_INITIALISATION.out.ch_fk_sheet.view()
     //

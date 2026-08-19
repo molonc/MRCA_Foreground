@@ -1,14 +1,14 @@
 process BAF_PUNISHMENT_CALC {
     label 'symlink_output'
-    tag "${library_id}-${sample_id}-${exp_con}"
+    tag "${sample_id}"
     label 'process_single'
 
-    conda "${moduleDir}/r44.yml"
+    container params.base_container
 
     input:
-        tuple val(sample_id), val(library_id), val(exp_con), path(reads), path(alleles), path(metrics), path(hscn), path(all_nnd)
+        tuple val(sample_id), path(reads), path(alleles), path(metrics), path(hscn), path(all_nnd)
     output:
-        tuple val(sample_id), val(library_id),  val(exp_con),path(reads), path(alleles), path(metrics), path(hscn), path(all_nnd), path("punishment_data.csv.gz"), emit: master
+        tuple val(sample_id), path(reads), path(alleles), path(metrics), path(hscn), path(all_nnd), path("punishment_data.csv.gz"), emit: master
 
         path "baf_integerness_results.csv.gz"
         path "punishment_data.csv.gz"

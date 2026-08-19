@@ -6,7 +6,7 @@ description: >
   allele-aware with whole-genome-doubling (WGD) detection.
 script: medicc2 CLI (bioconda medicc2=1.1.2)
 input:
-  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - sample_id: Tracking id, passthrough
   - reads, alleles, metrics, hscn, all_nnd, punish, adata: Passthrough
   - jitter_segs: Jitter-corrected segments from jitter_correct
   - tcn_bool: params.tcn - true for total-copy-number-only mode

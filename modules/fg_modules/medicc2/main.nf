@@ -1,15 +1,15 @@
 process MEDICC2 {
     label 'symlink_output'
-    tag "${library_id}-${sample_id}-${exp_con}"
+    tag "${sample_id}"
     label 'process_high'
 
-    conda "${moduleDir}/medicc2.yaml"
+    container params.medicc2_container
 
     input:
-        tuple val(sample_id), val(library_id), val(exp_con),path(reads), path(alleles), path(metrics), path(hscn), path(all_nnd), path(punish), path(adata), path(jitter_segs)
+        tuple val(sample_id), path(reads), path(alleles), path(metrics), path(hscn), path(all_nnd), path(punish), path(adata), path(jitter_segs)
         val tcn_bool
     output:
-        tuple val(sample_id), val(library_id),  val(exp_con),path(reads), path(alleles), path(metrics), path(hscn), path("medicc2_output_allele_wgd/output_segments_all.tsv_final_tree.new"),  path("medicc2_output_allele_wgd/output_segments_all.tsv_final_cn_profiles.tsv"), emit: master
+        tuple val(sample_id), path(reads), path(alleles), path(metrics), path(hscn), path("medicc2_output_allele_wgd/output_segments_all.tsv_final_tree.new"),  path("medicc2_output_allele_wgd/output_segments_all.tsv_final_cn_profiles.tsv"), emit: master
 
     script:
     """

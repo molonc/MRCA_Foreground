@@ -5,7 +5,7 @@ description: >
   telomere locations to bound segments, producing MEDICC2-ready input segments.
 script: compute_segments_mspcf.py
 input:
-  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - sample_id: Tracking id, passthrough
   - reads, alleles, metrics, hscn, all_nnd, punish: Passthrough
   - adata: AnnData from preprocess_medicc2
   - cell_list: MEDICC2 input cell list from preprocess_medicc2

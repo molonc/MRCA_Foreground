@@ -1,0 +1,50 @@
+# Apptainer/Singularity definition file for the MEDICC2 tree-building
+# environment shared by: medicc2, jitter_correct, foreground,
+# preprocess_medicc2 (4 modules).
+#
+# Build (from the repo root, right on this cluster):
+#   apptainer build containers/medicc2/medicc2.sif containers/medicc2/medicc2.def
+#
+# See containers/base/base.def / containers/README.md for why this is the
+# primary build path (no Docker daemon on this cluster; Apptainer builds
+# unprivileged, via its own fakeroot emulation).
+
+Bootstrap: docker
+From: mambaorg/micromamba:1.5.8
+
+%files
+    containers/medicc2/medicc2.yaml /opt/medicc2.yaml
+
+%post
+    # procps (`ps`): Nextflow's own task wrapper (.command.run's
+    # nxf_trace_linux, used for local-executor CPU/mem trace collection)
+    # re-execs itself *inside* the container and does a hard
+    # `command -v ps || exit 1` before ever launching the actual task
+    # script. mambaorg/micromamba's base Debian image doesn't include it,
+    # so every task in this container was dying before .command.sh ever
+    # ran, with no useful error surfaced (just "Command 'ps' required by
+    # nextflow to collect task metrics cannot be found" and exit 1).
+    apt-get update && apt-get install -y --no-install-recommends procps && \
+        apt-get clean && rm -rf /var/lib/apt/lists/*
+
+    micromamba install -y -n base -f /opt/medicc2.yaml
+    micromamba clean --all --yes
+
+    # Sanity-check the tools this image exists to provide.
+    micromamba run -n base medicc2 --help > /dev/null
+    micromamba run -n base python -c "import scgenome"
+
+%environment
+    export MAMBA_ROOT_PREFIX=/opt/conda
+    export PATH=/opt/conda/bin:$PATH
+    # scgenome -> umap -> numba: numba JIT-caches compiled functions next to
+    # their source file by default (e.g. .../site-packages/umap/layouts.py).
+    # That works at build time (the %post overlay is writable) but not at
+    # run time -- a built .sif is a read-only squashfs -- so without this,
+    # every run hits "RuntimeError: cannot cache function 'rdist': no
+    # locator available ... umap/layouts.py". Point the cache somewhere
+    # writable instead.
+    export NUMBA_CACHE_DIR=/tmp
+
+%runscript
+    exec micromamba run -n base "$@"

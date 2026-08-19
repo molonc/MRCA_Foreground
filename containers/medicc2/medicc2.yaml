@@ -1,0 +1,30 @@
+# Conda environment for MEDICC2 tree-building steps (medicc2, jitter_correct,
+# foreground, preprocess_medicc2 modules).
+#
+# NOTE: this file previously pinned exact osx64 conda builds (e.g.
+# `libblas=3.9.0=22_osx64_openblas`) copied from a macOS development machine, which
+# cannot be solved on Linux at all. Package versions below are pinned; build hashes
+# are intentionally left unpinned so conda/mamba can solve a build for the host
+# platform. Verify with `mamba env create -f medicc2.yaml` on the target system.
+name: medicc2
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - medicc2=1.1.2
+  # scgenome's pip dependency `bamread` has no prebuilt wheel for this
+  # platform/Python combo, so pip builds its Cython extension from source --
+  # needs a C compiler. This was missing entirely; it happened to go
+  # unnoticed on hosts with a system gcc already on PATH outside conda, but
+  # fails inside a minimal container image with none.
+  - c-compiler
+  - cxx-compiler
+  # scgenome imports pkg_resources (`from . import refgenome` -> ... ->
+  # `import pkg_resources`) without declaring it as a dependency. Recent
+  # setuptools versions (resolved to 84.0.0 unpinned) no longer bundle
+  # pkg_resources by default, so pin an older one that still does.
+  - setuptools<81
+  - pip
+  - pip:
+      - scgenome==0.0.19

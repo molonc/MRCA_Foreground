@@ -28,7 +28,12 @@ option_list <- list(
   make_option("--include_chr_y", action = "store_true", default = FALSE,
               help = "Include chromosome Y in analysis [default= FALSE]"),
 
-  make_option("--include_chr_x", action = "store_true", default = TRUE,
+  # NOTE: type = "logical" (not action = "store_true") -- main.nf's SIGNALS
+  # process always passes an explicit value, `--include_chr_x TRUE` or
+  # `--include_chr_x FALSE` depending on task.attempt. A store_true switch
+  # takes no argument, so that trailing TRUE/FALSE token was left over and
+  # rejected by optparse ("'FALSE' is not a valid option") on every call.
+  make_option("--include_chr_x", type = "logical", default = TRUE,
               help = "Include chromosome X in analysis [default= TRUE]")
 
 )

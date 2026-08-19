@@ -1,21 +1,23 @@
 process FOREGROUND {
     label 'symlink_output'
 
-    tag "${library_id}-${sample_id}-${exp_con}"
+    tag "${sample_id}"
     label 'process_single'
 
-    conda "${moduleDir}/medicc2.yaml"
+    // foreground_ancestor.R needs vroom/ape/dplyr/tidyr/tibble (base_container's
+    // R env) -- not medicc2_container, which is Python-only and has no Rscript.
+    container params.base_container
 
     input:
-        tuple val(sample_id), val(library_id), val(exp_con),path(reads), path(alleles), path(metrics),  path(hscn), path(tree), path(cnprofiles)
+        tuple val(sample_id), path(reads), path(alleles), path(metrics), path(hscn), path(tree), path(cnprofiles)
     output:
-        tuple val(sample_id), val(library_id), val(exp_con), path(reads), path(alleles), path(metrics),  path(hscn), path(tree), path(cnprofiles), path("${library_id}_seg.csv.gz"), emit: master
+        tuple val(sample_id), path(reads), path(alleles), path(metrics), path(hscn), path(tree), path(cnprofiles), path("${sample_id}_seg.csv.gz"), emit: master
 
     script:
     """
     Rscript ${moduleDir}/foreground_ancestor.R \
         ${tree} \
         ${cnprofiles} \
-        ${library_id}_seg.csv.gz
+        ${sample_id}_seg.csv.gz
     """
 }

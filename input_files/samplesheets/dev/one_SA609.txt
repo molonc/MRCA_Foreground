@@ -1,1 +1,2 @@
-A98172B	58595-BB	A	AX8455	AX8746
+sample_id,reads,allele,metrics
+A98172B_58595-BB_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98172B_58595-BB_A/58595-BB_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98172B_58595-BB_A/6161-NA_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98172B_58595-BB_A/58595-BB_A_hmmcopy_metrics.csv.gz

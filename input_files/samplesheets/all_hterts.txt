@@ -1,189 +1,190 @@
-A118397A	AT9253	A	AX9050	AX9126
-A118423A	AT9255	A	AX7818	AX8423
-A118423B	AT9256	A	AX7942	AX8357
-A118388B	AT10098	A	AX9049	AX9128
-A118388A	AT10097	A	AX9047	AX9127
-A118413A	AT10099	A	AX9020	AX9129
-A118413B	AT10125	A	AX9024	AX9130
-A118338A	AT10214	A	AX7822	AX8426
-A118348B	AT10213	A	AX7830	AX8425
-A118345A	AT10216	A	AX9033	AX9131
-A118338B	AT10215	A	AX7827	AX7901
-A118409B	10375-CL	A	AX7837	AX10062
-A118389B	AT135	A	AX7836	AX10063
-A118363B	AT13874	A	AX7834	AX8431
-A118363A	AT13873	A	AX7833	AX8430
-A118361B	AT13876	A	AX7832	AX8433
-A118361A	AT13875	A	AX7831	AX8432
-A131227A	AT14875	A	AX7842	AX8415
-A131227B	AT14876	A	AX7843	AX8416
-A131224B	AT10250	A	AX7925	AX8360
-A131224A	AT10249	A	AX7926	AX8359
-A131143B	AT11608	A	AX7923	AX8362
-A131143A	AT11607	A	AX7924	AX8361
-A131195A	AT11609	A	AX8282	AX8586
-A131195B	AT11610	A	AX7922	AX8363
-A118871A	AT17082	A	AX7921	AX8364
-A118871B	AT17083	A	AX7920	AX8365
-A108875B	AT17081	A	AX7825	AX8587
-A108875A	AT17080	A	AX7824	AX8434
-A118868A	AT16170	A	AX7919	AX8588
-A118842A	AT16172	A	AX7918	AX8366
-A118842B	AT16173	A	AX7917	AX8367
-A118850A	AT16174	A	AX7915	AX8368
-A118850B	AT16175	A	AX7916	AX8369
-A118846A	AT16176	A	AX7914	AX8370
-A118846B	AT16177	A	AX7913	AX8371
-A118875A	AT16178	A	AX7911	AX8372
-A118875B	AT16179	A	AX7912	AX8373
-A98218A	AT16180	A	AX7909	AX8374
-A98218B	AT16181	A	AX7910	AX8375
-A98308B	AT13846	A	AX7907	AX8377
-A98308A	AT13845	A	AX7908	AX8376
-A98187A	AT13847	A	AX7905	AX8378
-A98187B	AT13848	A	AX7906	AX8379
-A138873B	AT18455	A	AX7885	AX8381
-A138888B	AT18455	A	AX7903	AX8382
-A138888A	AT18454	A	AX7904	AX8380
-A138871B	AT18457	A	AX7884	AX8383
-A138871A	AT18456	A	AX7883	AX8679
-A138891B	AT18976	A	AX7881	AX8590
-A138891A	AT18975	A	AX7882	AX8589
-A138884A	AT18977	A	AX7880	AX8384
-A138884B	AT18978	A	AX7879	AX8385
-A130832B	AT18984	A	AX7877	AX8678
-A130832A	AT18983	A	AX7878	AX8386
-A130820A	AT18985	A	AX7874	AX8389
-A130826A	AT18985	A	AX7875	AX8591
-A130820B	AT18986	A	AX7872	AX8390
-A130826B	AT18986	A	AX7873	AX8391
-A130829B	AT18352	A	AX7870	AX8592
-A130829A	AT18351	A	AX7871	AX8392
-A130833A	AT18353	A	AX7869	AX8393
-A130833B	AT12575	A	AX8284	AX8593
-A130851A	AT20060	A	AX7868	AX8394
-A130851B	AT20061	A	AX7867	AX8594
-A130855A	AT20066	A	AX7653	AX7940
-A130855B	AT20067	A	AX7652	AX7939
-A143922A	AT25528	A	AX7866	AX8395
-A143922B	AT25529	A	AX7865	AX8396
-A143934A	AT25530	A	AX8516	AX8598
-A143934B	AT25531	A	AX7863	AX8397
-A143946B	AT25532	A	AX8527	AX8599
-A143949B	AT25533	A	AX9018	AX9132
-A143931A	AT25534	A	AX7862	AX8398
-A143932A	AT25978	A	AX6977	AX7936
-A143932B	AT25979	A	AX6959	AX7937
-A143943A	AT25978	A	AX9570	AX9935
-A143943B	AT25979	A	AX9839	AX9936
-A143910A	AT25980	A	AX7861	AX8399
-A143910B	AT25981	A	AX7860	AX8400
-A143951A	AT25982	A	AX7858	AX8401
-A143951B	AT25983	A	AX7859	AX8402
-A143914A	AT25984	A	AX7856	AX8403
-A143914B	AT25985	A	AX7857	AX8404
-A143947A	AT25986	A	AX7854	AX8405
-A143947B	AT25987	A	AX7855	AX8406
-A143907B	AT25989	A	AX7853	AX8408
-A143907A	AT25988	A	AX7852	AX8407
-A143821A	AT28551	A	AX6331	AX7900
-A143821B	AT28552	A	AX6332	AX7899
-A143897A	AT28561	A	AX7851	AX8409
-A143897B	AT28562	A	AX7850	AX8410
-A146324A	AT28553	A	AX7779	AX7898
-A146324B	AT28554	A	AX7762	AX7897
-A146246A	AT28563	A	AX6136	AX7896
-A146246B	AT28564	A	AX6333	AX7895
-A146249A	AT28557	A	AX6121	AX7893
-A146249B	AT28558	A	AX6120	AX7775
-A146252A	AT28567	A	AX7848	AX8411
-A146252B	AT28568	A	AX7849	AX8412
-A146335A	AT28920	A	AX7439	AX7934
-A146335B	AT28921	A	AX7438	AX7935
-A146355A	AT28926	A	AX7847	AX8601
-A146355B	AT28927	A	AX7100	AX7892
-A146349A	AT28922	A	AX9011	AX9133
-A146349B	AT28923	A	AX9016	AX9134
-A146255B	AT28928	A	AX7844	AX8414
-A146255A	AT28929	A	AX9099	AX9135
-A146338A	AT28924	A	AX8290	AX8603
-A146338B	AT28925	A	AX8291	AX8604
-A146348A	AT28930	A	AX6659	AX6927
-A146348B	AT28931	A	AX6660	AX6928
-A146345A	AT31021	A	AX6496	AX7890
-A108748A	AT31021	A	AX7760	AX8435
-A146345B	AT31024	A	AX8292	AX8605
-A108748B	AT31024	A	AX7758	AX8436
-A146361A	AT31027	A	AX6212	AX6918
-A146361B	AT31030	A	AX6211	AX6920
-A118891A	AT31033	A	AX6649	AX6925
-A118891B	AT31036	A	AX6650	AX6923
-A118890A	AT31022	A	AX6647	AX6926
-A118890B	AT31025	A	AX6648	AX6915
-A118887A	AT31028	A	AX6645	AX6917
-A118887B	AT31031	A	AX6646	AX6919
-A118888A	AT31034	A	AX6495	AX6924
-A118888B	AT31037	A	AX8293	AX8606
-A118889A	AT31877	A	AX6873	AX7864
-A118889B	AT31879	A	AX6876	AX7933
-A98268A	AT31881	A	AX6874	AX7889
-A98268B	AT31883	A	AX6875	AX7932
-A146264B	AT31885	A	AX7675	AX8439
-A146264A	AT31887	A	AX7680	AX8440
-A146303A	AT31889	A	AX6847	AX7888
-A146303B	AT31891	A	AX6830	AX7931
-A146309A	AT31893	A	AX8697	AX9136
-A146309B	AT31895	A	AX8698	AX9137
-A146308A	AT31897	A	AX7130	AX7929
-A146308B	AT31899	A	AX7129	AX7930
-A108746B	AT300607	A	AX7430	AX7459
-A108746A	AT300608	A	AX7429	AX7458
-A149401A	AT300736	A	AX7517	AX7574
-A149401B	AT300848	A	AX7518	AX7575
-A108754A	AT300737	A	AX7572	AX7928
-A108754B	AT300849	A	AX7573	AX7927
-A108790A	AT300738	A	AX7427	AX7433
-A108790B	AT300850	A	AX7428	AX7434
-A149380A	AT300739	A	AX7576	AX7580
-A149380B	AT300851	A	AX7577	AX7581
-A149388A	AT300740	A	AX7702	AX8441
-A149388B	AT300852	A	AX7701	AX8442
-A149391A	AT300741	A	AX7840	AX8417
-A149391B	AT300853	A	AX7841	AX8418
-A147060A	AT300743	A	AX8705	AX9937
-A147060B	AT300855	A	AX8700	AX9138
-A147073B	AT301268	A	AX7759	AX8437
-A147073A	AT301269	A	AX7761	AX8438
-A147168A	AT301267	A	AX8703	AX9139
-A147116A	AT301621	A	AX8012	AX8607
-A147116B	AT301623	A	AX8013	AX9140
-A149362A	AT301620	A	AX9842	AX9938
-A149362B	AT301622	A	AX9845	AX9939
-A149774B	AT301626	A	AX9851	AX9940
-A149774A	AT301628	A	AX9848	AX9941
-A149385A	AT301627	A	AX9846	AX9942
-A149385B	AT301629	A	AX9844	AX9943
-A149351A	AT301031	A	AX9841	AX9944
-A149351B	AT301032	A	AX9843	AX9945
-A149345A	AT301030	A	AX9837	AX9946
-A149345B	AT301034	A	AX9838	AX9947
-A149734A	AT301636	A	AX9850	AX9948
-A149734B	AT301984	A	AX9847	AX9949
-A149343B	AT301637	A	AX9977	AX10525
-A149343A	AT301985	A	AX10001	AX10526
-A153286A	AT33260	A	AX10202	AX10527
-A153286B	AT33262	A	AX10212	AX10528
-A153403B	AT33569	A	AX10196	AX10529
-A149349B	AT33569	A	AX10004	AX10530
-A153403A	AT33572	A	AX10195	AX10531
-A149349A	AT33572	A	AX10003	AX10532
-A153428B	AT33570	A	AX10201	AX10533
-A153428A	AT33573	A	AX10194	AX10534
-A153419A	AT33762	A	AX10197	AX10535
-A153419B	AT33765	A	AX10198	AX10536
-A153347A	AT33760	A	AX10209	AX10537
-A153347B	AT33763	A	AX10210	AX10538
-A153401A	AT34342	A	AX10192	AX10539
-A153401B	AT34345	A	AX10193	AX10540
-A149360A	AT34343	A	AX10190	AX10541
-A149360B	AT34346	A	AX10211	AX10542
+sample_id,reads,allele,metrics
+A118397A_AT9253_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118397A_AT9253_A/AT9253_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118397A_AT9253_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118397A_AT9253_A/AT9253_A_hmmcopy_metrics.csv.gz
+A118423A_AT9255_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118423A_AT9255_A/AT9255_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118423A_AT9255_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118423A_AT9255_A/AT9255_A_hmmcopy_metrics.csv.gz
+A118423B_AT9256_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118423B_AT9256_A/AT9256_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118423B_AT9256_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118423B_AT9256_A/AT9256_A_hmmcopy_metrics.csv.gz
+A118388B_AT10098_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118388B_AT10098_A/AT10098_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118388B_AT10098_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118388B_AT10098_A/AT10098_A_hmmcopy_metrics.csv.gz
+A118388A_AT10097_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118388A_AT10097_A/AT10097_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118388A_AT10097_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118388A_AT10097_A/AT10097_A_hmmcopy_metrics.csv.gz
+A118413A_AT10099_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118413A_AT10099_A/AT10099_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118413A_AT10099_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118413A_AT10099_A/AT10099_A_hmmcopy_metrics.csv.gz
+A118413B_AT10125_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118413B_AT10125_A/AT10125_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118413B_AT10125_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118413B_AT10125_A/AT10125_A_hmmcopy_metrics.csv.gz
+A118338A_AT10214_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118338A_AT10214_A/AT10214_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118338A_AT10214_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118338A_AT10214_A/AT10214_A_hmmcopy_metrics.csv.gz
+A118348B_AT10213_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118348B_AT10213_A/AT10213_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118348B_AT10213_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118348B_AT10213_A/AT10213_A_hmmcopy_metrics.csv.gz
+A118345A_AT10216_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118345A_AT10216_A/AT10216_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118345A_AT10216_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118345A_AT10216_A/AT10216_A_hmmcopy_metrics.csv.gz
+A118338B_AT10215_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118338B_AT10215_A/AT10215_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118338B_AT10215_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118338B_AT10215_A/AT10215_hmmcopy_metrics.csv.gz
+A118409B_10375-CL_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118409B_10375-CL_A/10375-CL_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118409B_10375-CL_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118409B_10375-CL_A/10375-CL_A_hmmcopy_metrics.csv.gz
+A118363B_AT13874_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118363B_AT13874_A/AT13874_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118363B_AT13874_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118363B_AT13874_A/AT13874_A_hmmcopy_metrics.csv.gz
+A118363A_AT13873_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118363A_AT13873_A/AT13873_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118363A_AT13873_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118363A_AT13873_A/AT13873_A_hmmcopy_metrics.csv.gz
+A118361B_AT13876_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118361B_AT13876_A/AT13876_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118361B_AT13876_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118361B_AT13876_A/AT13876_A_hmmcopy_metrics.csv.gz
+A118361A_AT13875_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118361A_AT13875_A/AT13875_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118361A_AT13875_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118361A_AT13875_A/AT13875_A_hmmcopy_metrics.csv.gz
+A131227A_AT14875_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131227A_AT14875_A/AT14875_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131227A_AT14875_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131227A_AT14875_A/AT14875_A_hmmcopy_metrics.csv.gz
+A131227B_AT14876_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131227B_AT14876_A/AT14876_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131227B_AT14876_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131227B_AT14876_A/AT14876_A_hmmcopy_metrics.csv.gz
+A131224B_AT10250_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131224B_AT10250_A/AT10250_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131224B_AT10250_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131224B_AT10250_A/AT10250_A_hmmcopy_metrics.csv.gz
+A131224A_AT10249_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131224A_AT10249_A/AT10249_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131224A_AT10249_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131224A_AT10249_A/AT10249_A_hmmcopy_metrics.csv.gz
+A131143B_AT11608_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131143B_AT11608_A/AT11608_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131143B_AT11608_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131143B_AT11608_A/AT11608_A_hmmcopy_metrics.csv.gz
+A131143A_AT11607_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131143A_AT11607_A/AT11607_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131143A_AT11607_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131143A_AT11607_A/AT11607_A_hmmcopy_metrics.csv.gz
+A131195A_AT11609_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131195A_AT11609_A/AT11609_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131195A_AT11609_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131195A_AT11609_A/AT11609_A_hmmcopy_metrics.csv.gz
+A131195B_AT11610_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131195B_AT11610_A/AT11610_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131195B_AT11610_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A131195B_AT11610_A/AT11610_A_hmmcopy_metrics.csv.gz
+A118871A_AT17082_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118871A_AT17082_A/AT17082_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118871A_AT17082_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118871A_AT17082_A/AT17082_A_hmmcopy_metrics.csv.gz
+A118871B_AT17083_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118871B_AT17083_A/AT17083_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118871B_AT17083_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118871B_AT17083_A/AT17083_A_hmmcopy_metrics.csv.gz
+A108875B_AT17081_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108875B_AT17081_A/AT17081_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108875B_AT17081_A/AT17081_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108875B_AT17081_A/AT17081_A_hmmcopy_metrics.csv.gz
+A108875A_AT17080_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108875A_AT17080_A/AT17080_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108875A_AT17080_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108875A_AT17080_A/AT17080_A_hmmcopy_metrics.csv.gz
+A118868A_AT16170_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118868A_AT16170_A/AT16170_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118868A_AT16170_A/AT16170_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118868A_AT16170_A/AT16170_A_hmmcopy_metrics.csv.gz
+A118842A_AT16172_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118842A_AT16172_A/AT16172_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118842A_AT16172_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118842A_AT16172_A/AT16172_A_hmmcopy_metrics.csv.gz
+A118842B_AT16173_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118842B_AT16173_A/AT16173_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118842B_AT16173_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118842B_AT16173_A/AT16173_A_hmmcopy_metrics.csv.gz
+A118850A_AT16174_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118850A_AT16174_A/AT16174_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118850A_AT16174_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118850A_AT16174_A/AT16174_A_hmmcopy_metrics.csv.gz
+A118850B_AT16175_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118850B_AT16175_A/AT16175_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118850B_AT16175_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118850B_AT16175_A/AT16175_A_hmmcopy_metrics.csv.gz
+A118846A_AT16176_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118846A_AT16176_A/AT16176_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118846A_AT16176_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118846A_AT16176_A/AT16176_A_hmmcopy_metrics.csv.gz
+A118846B_AT16177_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118846B_AT16177_A/AT16177_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118846B_AT16177_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118846B_AT16177_A/AT16177_A_hmmcopy_metrics.csv.gz
+A118875A_AT16178_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118875A_AT16178_A/AT16178_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118875A_AT16178_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118875A_AT16178_A/AT16178_A_hmmcopy_metrics.csv.gz
+A118875B_AT16179_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118875B_AT16179_A/AT16179_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118875B_AT16179_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118875B_AT16179_A/AT16179_A_hmmcopy_metrics.csv.gz
+A98218A_AT16180_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98218A_AT16180_A/AT16180_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98218A_AT16180_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98218A_AT16180_A/AT16180_A_hmmcopy_metrics.csv.gz
+A98218B_AT16181_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98218B_AT16181_A/AT16181_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98218B_AT16181_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98218B_AT16181_A/AT16181_A_hmmcopy_metrics.csv.gz
+A98308B_AT13846_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98308B_AT13846_A/AT13846_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98308B_AT13846_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98308B_AT13846_A/AT13846_A_hmmcopy_metrics.csv.gz
+A98308A_AT13845_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98308A_AT13845_A/AT13845_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98308A_AT13845_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98308A_AT13845_A/AT13845_A_hmmcopy_metrics.csv.gz
+A98187A_AT13847_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98187A_AT13847_A/AT13847_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98187A_AT13847_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98187A_AT13847_A/AT13847_A_hmmcopy_metrics.csv.gz
+A98187B_AT13848_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98187B_AT13848_A/AT13848_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98187B_AT13848_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98187B_AT13848_A/AT13848_A_hmmcopy_metrics.csv.gz
+A138873B_AT18455_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138873B_AT18455_A/AT18455_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138873B_AT18455_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138873B_AT18455_A/AT18455_A_hmmcopy_metrics.csv.gz
+A138888B_AT18455_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138888B_AT18455_A/AT18455_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138888B_AT18455_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138888B_AT18455_A/AT18455_A_hmmcopy_metrics.csv.gz
+A138888A_AT18454_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138888A_AT18454_A/AT18454_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138888A_AT18454_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138888A_AT18454_A/AT18454_A_hmmcopy_metrics.csv.gz
+A138871B_AT18457_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138871B_AT18457_A/AT18457_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138871B_AT18457_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138871B_AT18457_A/AT18457_A_hmmcopy_metrics.csv.gz
+A138871A_AT18456_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138871A_AT18456_A/AT18456_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138871A_AT18456_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138871A_AT18456_A/AT18456_A_hmmcopy_metrics.csv.gz
+A138891B_AT18976_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138891B_AT18976_A/AT18976_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138891B_AT18976_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138891B_AT18976_A/AT18976_A_hmmcopy_metrics.csv.gz
+A138891A_AT18975_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138891A_AT18975_A/AT18975_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138891A_AT18975_A/AT18975_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138891A_AT18975_A/AT18975_A_hmmcopy_metrics.csv.gz
+A138884A_AT18977_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138884A_AT18977_A/AT18977_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138884A_AT18977_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138884A_AT18977_A/AT18977_A_hmmcopy_metrics.csv.gz
+A138884B_AT18978_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138884B_AT18978_A/AT18978_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138884B_AT18978_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A138884B_AT18978_A/AT18978_A_hmmcopy_metrics.csv.gz
+A130832B_AT18984_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130832B_AT18984_A/AT18984_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130832B_AT18984_A/AT18984_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130832B_AT18984_A/AT18984_A_hmmcopy_metrics.csv.gz
+A130832A_AT18983_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130832A_AT18983_A/AT18983_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130832A_AT18983_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130832A_AT18983_A/AT18983_A_hmmcopy_metrics.csv.gz
+A130820A_AT18985_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130820A_AT18985_A/AT18985_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130820A_AT18985_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130820A_AT18985_A/AT18985_A_hmmcopy_metrics.csv.gz
+A130826A_AT18985_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130826A_AT18985_A/AT18985_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130826A_AT18985_A/AT18985_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130826A_AT18985_A/AT18985_A_hmmcopy_metrics.csv.gz
+A130820B_AT18986_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130820B_AT18986_A/AT18986_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130820B_AT18986_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130820B_AT18986_A/AT18986_A_hmmcopy_metrics.csv.gz
+A130826B_AT18986_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130826B_AT18986_A/AT18986_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130826B_AT18986_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130826B_AT18986_A/AT18986_A_hmmcopy_metrics.csv.gz
+A130829B_AT18352_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130829B_AT18352_A/AT18352_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130829B_AT18352_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130829B_AT18352_A/AT18352_A_hmmcopy_metrics.csv.gz
+A130829A_AT18351_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130829A_AT18351_A/AT18351_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130829A_AT18351_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130829A_AT18351_A/AT18351_A_hmmcopy_metrics.csv.gz
+A130833A_AT18353_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130833A_AT18353_A/AT18353_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130833A_AT18353_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130833A_AT18353_A/AT18353_A_hmmcopy_metrics.csv.gz
+A130833B_AT12575_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130833B_AT12575_A/AT12575_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130833B_AT12575_A/AT12575_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130833B_AT12575_A/AT12575_A_hmmcopy_metrics.csv.gz
+A130851A_AT20060_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130851A_AT20060_A/AT20060_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130851A_AT20060_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130851A_AT20060_A/AT20060_A_hmmcopy_metrics.csv.gz
+A130851B_AT20061_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130851B_AT20061_A/AT20061_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130851B_AT20061_A/AT20061_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130851B_AT20061_A/AT20061_A_hmmcopy_metrics.csv.gz
+A130855A_AT20066_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130855A_AT20066_A/AT20066_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130855A_AT20066_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130855A_AT20066_A/AT20066_hmmcopy_metrics.csv.gz
+A130855B_AT20067_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130855B_AT20067_A/AT20067_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130855B_AT20067_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A130855B_AT20067_A/AT20067_hmmcopy_metrics.csv.gz
+A143922A_AT25528_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143922A_AT25528_A/AT25528_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143922A_AT25528_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143922A_AT25528_A/AT25528_A_hmmcopy_metrics.csv.gz
+A143922B_AT25529_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143922B_AT25529_A/AT25529_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143922B_AT25529_A/AT25529_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143922B_AT25529_A/AT25529_A_hmmcopy_metrics.csv.gz
+A143934A_AT25530_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143934A_AT25530_A/AT25530_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143934A_AT25530_A/AT25530_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143934A_AT25530_A/AT25530_A_hmmcopy_metrics.csv.gz
+A143934B_AT25531_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143934B_AT25531_A/AT25531_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143934B_AT25531_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143934B_AT25531_A/AT25531_A_hmmcopy_metrics.csv.gz
+A143946B_AT25532_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143946B_AT25532_A/AT25532_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143946B_AT25532_A/AT25532_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143946B_AT25532_A/AT25532_A_hmmcopy_metrics.csv.gz
+A143949B_AT25533_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143949B_AT25533_A/AT25533_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143949B_AT25533_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143949B_AT25533_A/AT25533_A_hmmcopy_metrics.csv.gz
+A143931A_AT25534_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143931A_AT25534_A/AT25534_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143931A_AT25534_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143931A_AT25534_A/AT25534_A_hmmcopy_metrics.csv.gz
+A143932A_AT25978_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143932A_AT25978_A/AT25978_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143932A_AT25978_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143932A_AT25978_A/AT25978_hmmcopy_metrics.csv.gz
+A143932B_AT25979_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143932B_AT25979_A/AT25979_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143932B_AT25979_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143932B_AT25979_A/AT25979_hmmcopy_metrics.csv.gz
+A143943A_AT25978_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143943A_AT25978_A/AT25978_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143943A_AT25978_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143943A_AT25978_A/AT25978_A_hmmcopy_metrics.csv.gz
+A143943B_AT25979_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143943B_AT25979_A/AT25979_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143943B_AT25979_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143943B_AT25979_A/AT25979_A_hmmcopy_metrics.csv.gz
+A143910A_AT25980_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143910A_AT25980_A/AT25980_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143910A_AT25980_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143910A_AT25980_A/AT25980_A_hmmcopy_metrics.csv.gz
+A143910B_AT25981_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143910B_AT25981_A/AT25981_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143910B_AT25981_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143910B_AT25981_A/AT25981_A_hmmcopy_metrics.csv.gz
+A143951A_AT25982_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143951A_AT25982_A/AT25982_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143951A_AT25982_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143951A_AT25982_A/AT25982_A_hmmcopy_metrics.csv.gz
+A143951B_AT25983_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143951B_AT25983_A/AT25983_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143951B_AT25983_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143951B_AT25983_A/AT25983_A_hmmcopy_metrics.csv.gz
+A143914A_AT25984_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143914A_AT25984_A/AT25984_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143914A_AT25984_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143914A_AT25984_A/AT25984_A_hmmcopy_metrics.csv.gz
+A143914B_AT25985_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143914B_AT25985_A/AT25985_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143914B_AT25985_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143914B_AT25985_A/AT25985_A_hmmcopy_metrics.csv.gz
+A143947A_AT25986_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143947A_AT25986_A/AT25986_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143947A_AT25986_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143947A_AT25986_A/AT25986_A_hmmcopy_metrics.csv.gz
+A143947B_AT25987_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143947B_AT25987_A/AT25987_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143947B_AT25987_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143947B_AT25987_A/AT25987_A_hmmcopy_metrics.csv.gz
+A143907B_AT25989_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143907B_AT25989_A/AT25989_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143907B_AT25989_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143907B_AT25989_A/AT25989_A_hmmcopy_metrics.csv.gz
+A143907A_AT25988_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143907A_AT25988_A/AT25988_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143907A_AT25988_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143907A_AT25988_A/AT25988_A_hmmcopy_metrics.csv.gz
+A143821A_AT28551_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143821A_AT28551_A/AT28551_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143821A_AT28551_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143821A_AT28551_A/AT28551_hmmcopy_metrics.csv.gz
+A143821B_AT28552_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143821B_AT28552_A/AT28552_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143821B_AT28552_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143821B_AT28552_A/AT28552_hmmcopy_metrics.csv.gz
+A143897A_AT28561_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143897A_AT28561_A/AT28561_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143897A_AT28561_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143897A_AT28561_A/AT28561_A_hmmcopy_metrics.csv.gz
+A143897B_AT28562_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143897B_AT28562_A/AT28562_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143897B_AT28562_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A143897B_AT28562_A/AT28562_A_hmmcopy_metrics.csv.gz
+A146324A_AT28553_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146324A_AT28553_A/AT28553_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146324A_AT28553_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146324A_AT28553_A/AT28553_hmmcopy_metrics.csv.gz
+A146324B_AT28554_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146324B_AT28554_A/AT28554_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146324B_AT28554_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146324B_AT28554_A/AT28554_hmmcopy_metrics.csv.gz
+A146246A_AT28563_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146246A_AT28563_A/AT28563_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146246A_AT28563_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146246A_AT28563_A/AT28563_hmmcopy_metrics.csv.gz
+A146246B_AT28564_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146246B_AT28564_A/AT28564_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146246B_AT28564_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146246B_AT28564_A/AT28564_hmmcopy_metrics.csv.gz
+A146249A_AT28557_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146249A_AT28557_A/AT28557_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146249A_AT28557_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146249A_AT28557_A/AT28557_hmmcopy_metrics.csv.gz
+A146249B_AT28558_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146249B_AT28558_A/AT28558_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146249B_AT28558_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146249B_AT28558_A/AT28558_hmmcopy_metrics.csv.gz
+A146252A_AT28567_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146252A_AT28567_A/AT28567_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146252A_AT28567_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146252A_AT28567_A/AT28567_A_hmmcopy_metrics.csv.gz
+A146252B_AT28568_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146252B_AT28568_A/AT28568_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146252B_AT28568_A/AT26401_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146252B_AT28568_A/AT28568_A_hmmcopy_metrics.csv.gz
+A146335A_AT28920_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146335A_AT28920_A/AT28920_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146335A_AT28920_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146335A_AT28920_A/AT28920_hmmcopy_metrics.csv.gz
+A146335B_AT28921_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146335B_AT28921_A/AT28921_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146335B_AT28921_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146335B_AT28921_A/AT28921_hmmcopy_metrics.csv.gz
+A146355A_AT28926_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146355A_AT28926_A/AT28926_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146355A_AT28926_A/AT26401_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146355A_AT28926_A/AT28926_A_hmmcopy_metrics.csv.gz
+A146355B_AT28927_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146355B_AT28927_A/AT28927_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146355B_AT28927_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146355B_AT28927_A/AT28927_hmmcopy_metrics.csv.gz
+A146349A_AT28922_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146349A_AT28922_A/AT28922_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146349A_AT28922_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146349A_AT28922_A/AT28922_A_hmmcopy_metrics.csv.gz
+A146349B_AT28923_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146349B_AT28923_A/AT28923_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146349B_AT28923_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146349B_AT28923_A/AT28923_A_hmmcopy_metrics.csv.gz
+A146255B_AT28928_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146255B_AT28928_A/AT28928_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146255B_AT28928_A/AT26401_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146255B_AT28928_A/AT28928_A_hmmcopy_metrics.csv.gz
+A146255A_AT28929_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146255A_AT28929_A/AT28929_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146255A_AT28929_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146255A_AT28929_A/AT28929_A_hmmcopy_metrics.csv.gz
+A146338A_AT28924_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146338A_AT28924_A/AT28924_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146338A_AT28924_A/AT26401_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146338A_AT28924_A/AT28924_A_hmmcopy_metrics.csv.gz
+A146338B_AT28925_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146338B_AT28925_A/AT28925_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146338B_AT28925_A/AT26401_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146338B_AT28925_A/AT28925_A_hmmcopy_metrics.csv.gz
+A146348A_AT28930_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146348A_AT28930_A/AT28930_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146348A_AT28930_A/AT28930_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146348A_AT28930_A/AT28930_hmmcopy_metrics.csv.gz
+A146348B_AT28931_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146348B_AT28931_A/AT28931_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146348B_AT28931_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146348B_AT28931_A/AT28931_hmmcopy_metrics.csv.gz
+A146345A_AT31021_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146345A_AT31021_A/AT31021_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146345A_AT31021_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146345A_AT31021_A/AT31021_hmmcopy_metrics.csv.gz
+A108748A_AT31021_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108748A_AT31021_A/AT31021_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108748A_AT31021_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108748A_AT31021_A/AT31021_hmmcopy_metrics.csv.gz
+A146345B_AT31024_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146345B_AT31024_A/AT31024_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146345B_AT31024_A/AT26401_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146345B_AT31024_A/AT31024_A_hmmcopy_metrics.csv.gz
+A108748B_AT31024_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108748B_AT31024_A/AT31024_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108748B_AT31024_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108748B_AT31024_A/AT31024_hmmcopy_metrics.csv.gz
+A146361A_AT31027_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146361A_AT31027_A/AT31027_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146361A_AT31027_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146361A_AT31027_A/AT31027_hmmcopy_metrics.csv.gz
+A146361B_AT31030_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146361B_AT31030_A/AT31030_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146361B_AT31030_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146361B_AT31030_A/AT31030_hmmcopy_metrics.csv.gz
+A118891A_AT31033_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118891A_AT31033_A/AT31033_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118891A_AT31033_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118891A_AT31033_A/AT31033_hmmcopy_metrics.csv.gz
+A118891B_AT31036_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118891B_AT31036_A/AT31036_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118891B_AT31036_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118891B_AT31036_A/AT31036_hmmcopy_metrics.csv.gz
+A118890A_AT31022_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118890A_AT31022_A/AT31022_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118890A_AT31022_A/AT31022_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118890A_AT31022_A/AT31022_hmmcopy_metrics.csv.gz
+A118890B_AT31025_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118890B_AT31025_A/AT31025_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118890B_AT31025_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118890B_AT31025_A/AT31025_hmmcopy_metrics.csv.gz
+A118887A_AT31028_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118887A_AT31028_A/AT31028_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118887A_AT31028_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118887A_AT31028_A/AT31028_hmmcopy_metrics.csv.gz
+A118887B_AT31031_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118887B_AT31031_A/AT31031_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118887B_AT31031_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118887B_AT31031_A/AT31031_hmmcopy_metrics.csv.gz
+A118888A_AT31034_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118888A_AT31034_A/AT31034_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118888A_AT31034_A/AT31034_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118888A_AT31034_A/AT31034_hmmcopy_metrics.csv.gz
+A118888B_AT31037_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118888B_AT31037_A/AT31037_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118888B_AT31037_A/AT26401_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118888B_AT31037_A/AT31037_A_hmmcopy_metrics.csv.gz
+A118889A_AT31877_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118889A_AT31877_A/AT31877_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118889A_AT31877_A/AT26401_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118889A_AT31877_A/AT31877_hmmcopy_metrics.csv.gz
+A118889B_AT31879_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118889B_AT31879_A/AT31879_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118889B_AT31879_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118889B_AT31879_A/AT31879_hmmcopy_metrics.csv.gz
+A98268A_AT31881_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98268A_AT31881_A/AT31881_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98268A_AT31881_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98268A_AT31881_A/AT31881_hmmcopy_metrics.csv.gz
+A98268B_AT31883_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98268B_AT31883_A/AT31883_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98268B_AT31883_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A98268B_AT31883_A/AT31883_hmmcopy_metrics.csv.gz
+A146264B_AT31885_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146264B_AT31885_A/AT31885_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146264B_AT31885_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146264B_AT31885_A/AT31885_hmmcopy_metrics.csv.gz
+A146264A_AT31887_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146264A_AT31887_A/AT31887_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146264A_AT31887_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146264A_AT31887_A/AT31887_hmmcopy_metrics.csv.gz
+A146303A_AT31889_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146303A_AT31889_A/AT31889_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146303A_AT31889_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146303A_AT31889_A/AT31889_hmmcopy_metrics.csv.gz
+A146303B_AT31891_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146303B_AT31891_A/AT31891_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146303B_AT31891_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146303B_AT31891_A/AT31891_hmmcopy_metrics.csv.gz
+A146309A_AT31893_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146309A_AT31893_A/AT31893_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146309A_AT31893_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146309A_AT31893_A/AT31893_A_hmmcopy_metrics.csv.gz
+A146309B_AT31895_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146309B_AT31895_A/AT31895_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146309B_AT31895_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146309B_AT31895_A/AT31895_A_hmmcopy_metrics.csv.gz
+A146308A_AT31897_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146308A_AT31897_A/AT31897_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146308A_AT31897_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146308A_AT31897_A/AT31897_hmmcopy_metrics.csv.gz
+A146308B_AT31899_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146308B_AT31899_A/AT31899_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146308B_AT31899_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A146308B_AT31899_A/AT31899_hmmcopy_metrics.csv.gz
+A108746B_AT300607_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108746B_AT300607_A/AT300607_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108746B_AT300607_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108746B_AT300607_A/AT300607_hmmcopy_metrics.csv.gz
+A108746A_AT300608_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108746A_AT300608_A/AT300608_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108746A_AT300608_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108746A_AT300608_A/AT300608_hmmcopy_metrics.csv.gz
+A149401A_AT300736_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149401A_AT300736_A/AT300736_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149401A_AT300736_A/AT300736_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149401A_AT300736_A/AT300736_hmmcopy_metrics.csv.gz
+A149401B_AT300848_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149401B_AT300848_A/AT300848_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149401B_AT300848_A/AT300848_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149401B_AT300848_A/AT300848_hmmcopy_metrics.csv.gz
+A108754A_AT300737_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108754A_AT300737_A/AT300737_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108754A_AT300737_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108754A_AT300737_A/AT300737_hmmcopy_metrics.csv.gz
+A108754B_AT300849_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108754B_AT300849_A/AT300849_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108754B_AT300849_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108754B_AT300849_A/AT300849_hmmcopy_metrics.csv.gz
+A108790A_AT300738_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108790A_AT300738_A/AT300738_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108790A_AT300738_A/AT300738_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108790A_AT300738_A/AT300738_hmmcopy_metrics.csv.gz
+A108790B_AT300850_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108790B_AT300850_A/AT300850_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108790B_AT300850_A/AT300850_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A108790B_AT300850_A/AT300850_hmmcopy_metrics.csv.gz
+A149380A_AT300739_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149380A_AT300739_A/AT300739_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149380A_AT300739_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149380A_AT300739_A/AT300739_hmmcopy_metrics.csv.gz
+A149380B_AT300851_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149380B_AT300851_A/AT300851_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149380B_AT300851_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149380B_AT300851_A/AT300851_hmmcopy_metrics.csv.gz
+A149388A_AT300740_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149388A_AT300740_A/AT300740_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149388A_AT300740_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149388A_AT300740_A/AT300740_hmmcopy_metrics.csv.gz
+A149388B_AT300852_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149388B_AT300852_A/AT300852_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149388B_AT300852_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149388B_AT300852_A/AT300852_hmmcopy_metrics.csv.gz
+A149391A_AT300741_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149391A_AT300741_A/AT300741_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149391A_AT300741_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149391A_AT300741_A/AT300741_A_hmmcopy_metrics.csv.gz
+A149391B_AT300853_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149391B_AT300853_A/AT300853_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149391B_AT300853_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149391B_AT300853_A/AT300853_A_hmmcopy_metrics.csv.gz
+A147060A_AT300743_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147060A_AT300743_A/AT300743_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147060A_AT300743_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147060A_AT300743_A/AT300743_A_hmmcopy_metrics.csv.gz
+A147060B_AT300855_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147060B_AT300855_A/AT300855_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147060B_AT300855_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147060B_AT300855_A/AT300855_A_hmmcopy_metrics.csv.gz
+A147073B_AT301268_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147073B_AT301268_A/AT301268_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147073B_AT301268_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147073B_AT301268_A/AT301268_hmmcopy_metrics.csv.gz
+A147073A_AT301269_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147073A_AT301269_A/AT301269_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147073A_AT301269_A/AT301269_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147073A_AT301269_A/AT301269_hmmcopy_metrics.csv.gz
+A147168A_AT301267_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147168A_AT301267_A/AT301267_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147168A_AT301267_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147168A_AT301267_A/AT301267_A_hmmcopy_metrics.csv.gz
+A147116A_AT301621_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147116A_AT301621_A/AT301621_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147116A_AT301621_A/AT301621_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147116A_AT301621_A/AT301621_A_hmmcopy_metrics.csv.gz
+A147116B_AT301623_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147116B_AT301623_A/AT301623_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147116B_AT301623_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A147116B_AT301623_A/AT301623_A_hmmcopy_metrics.csv.gz
+A149362A_AT301620_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149362A_AT301620_A/AT301620_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149362A_AT301620_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149362A_AT301620_A/AT301620_A_hmmcopy_metrics.csv.gz
+A149362B_AT301622_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149362B_AT301622_A/AT301622_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149362B_AT301622_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149362B_AT301622_A/AT301622_A_hmmcopy_metrics.csv.gz
+A149774B_AT301626_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149774B_AT301626_A/AT301626_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149774B_AT301626_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149774B_AT301626_A/AT301626_A_hmmcopy_metrics.csv.gz
+A149774A_AT301628_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149774A_AT301628_A/AT301628_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149774A_AT301628_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149774A_AT301628_A/AT301628_A_hmmcopy_metrics.csv.gz
+A149385A_AT301627_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149385A_AT301627_A/AT301627_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149385A_AT301627_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149385A_AT301627_A/AT301627_A_hmmcopy_metrics.csv.gz
+A149385B_AT301629_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149385B_AT301629_A/AT301629_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149385B_AT301629_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149385B_AT301629_A/AT301629_A_hmmcopy_metrics.csv.gz
+A149351A_AT301031_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149351A_AT301031_A/AT301031_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149351A_AT301031_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149351A_AT301031_A/AT301031_A_hmmcopy_metrics.csv.gz
+A149351B_AT301032_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149351B_AT301032_A/AT301032_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149351B_AT301032_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149351B_AT301032_A/AT301032_A_hmmcopy_metrics.csv.gz
+A149345A_AT301030_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149345A_AT301030_A/AT301030_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149345A_AT301030_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149345A_AT301030_A/AT301030_A_hmmcopy_metrics.csv.gz
+A149345B_AT301034_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149345B_AT301034_A/AT301034_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149345B_AT301034_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149345B_AT301034_A/AT301034_A_hmmcopy_metrics.csv.gz
+A149734A_AT301636_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149734A_AT301636_A/AT301636_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149734A_AT301636_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149734A_AT301636_A/AT301636_A_hmmcopy_metrics.csv.gz
+A149734B_AT301984_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149734B_AT301984_A/AT301984_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149734B_AT301984_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149734B_AT301984_A/AT301984_A_hmmcopy_metrics.csv.gz
+A149343B_AT301637_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149343B_AT301637_A/AT301637_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149343B_AT301637_A/AT301637_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149343B_AT301637_A/AT301637_A_hmmcopy_metrics.csv.gz
+A149343A_AT301985_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149343A_AT301985_A/AT301985_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149343A_AT301985_A/AT301985_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149343A_AT301985_A/AT301985_A_hmmcopy_metrics.csv.gz
+A153286A_AT33260_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153286A_AT33260_A/AT33260_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153286A_AT33260_A/AT33260_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153286A_AT33260_A/AT33260_A_hmmcopy_metrics.csv.gz
+A153286B_AT33262_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153286B_AT33262_A/AT33262_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153286B_AT33262_A/AT33262_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153286B_AT33262_A/AT33262_A_hmmcopy_metrics.csv.gz
+A153403B_AT33569_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153403B_AT33569_A/AT33569_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153403B_AT33569_A/AT33569_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153403B_AT33569_A/AT33569_A_hmmcopy_metrics.csv.gz
+A149349B_AT33569_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149349B_AT33569_A/AT33569_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149349B_AT33569_A/AT33569_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149349B_AT33569_A/AT33569_A_hmmcopy_metrics.csv.gz
+A153403A_AT33572_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153403A_AT33572_A/AT33572_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153403A_AT33572_A/AT33572_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153403A_AT33572_A/AT33572_A_hmmcopy_metrics.csv.gz
+A149349A_AT33572_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149349A_AT33572_A/AT33572_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149349A_AT33572_A/AT33572_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149349A_AT33572_A/AT33572_A_hmmcopy_metrics.csv.gz
+A153428B_AT33570_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153428B_AT33570_A/AT33570_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153428B_AT33570_A/AT33570_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153428B_AT33570_A/AT33570_A_hmmcopy_metrics.csv.gz
+A153428A_AT33573_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153428A_AT33573_A/AT33573_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153428A_AT33573_A/AT33573_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153428A_AT33573_A/AT33573_A_hmmcopy_metrics.csv.gz
+A153419A_AT33762_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153419A_AT33762_A/AT33762_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153419A_AT33762_A/AT33762_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153419A_AT33762_A/AT33762_A_hmmcopy_metrics.csv.gz
+A153419B_AT33765_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153419B_AT33765_A/AT33765_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153419B_AT33765_A/AT33765_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153419B_AT33765_A/AT33765_A_hmmcopy_metrics.csv.gz
+A153347A_AT33760_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153347A_AT33760_A/AT33760_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153347A_AT33760_A/AT33760_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153347A_AT33760_A/AT33760_A_hmmcopy_metrics.csv.gz
+A153347B_AT33763_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153347B_AT33763_A/AT33763_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153347B_AT33763_A/AT33763_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153347B_AT33763_A/AT33763_A_hmmcopy_metrics.csv.gz
+A153401A_AT34342_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153401A_AT34342_A/AT34342_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153401A_AT34342_A/AT34342_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153401A_AT34342_A/AT34342_A_hmmcopy_metrics.csv.gz
+A153401B_AT34345_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153401B_AT34345_A/AT34345_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153401B_AT34345_A/AT34345_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A153401B_AT34345_A/AT34345_A_hmmcopy_metrics.csv.gz
+A149360A_AT34343_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149360A_AT34343_A/AT34343_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149360A_AT34343_A/AT34343_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149360A_AT34343_A/AT34343_A_hmmcopy_metrics.csv.gz
+A149360B_AT34346_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149360B_AT34346_A/AT34346_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149360B_AT34346_A/AT34346_A_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A149360B_AT34346_A/AT34346_A_hmmcopy_metrics.csv.gz
+A118389B_AT135_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118389B_AT135_A/AT135_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118389B_AT135_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118389B_AT135_A/AT135_A_hmmcopy_metrics.csv.gz

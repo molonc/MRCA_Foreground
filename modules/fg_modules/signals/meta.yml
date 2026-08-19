@@ -5,12 +5,10 @@ description: >
   haplotype-specific copy number (hscn) table per library.
 script: signals.R
 input:
-  - sample_id: Sample identifier
-  - library_id: Library identifier
-  - exp_con: Experimental condition
+  - sample_id: Tracking id from the samplesheet; names the results subdirectory
   - reads: Filtered hmmcopy reads
   - alleles: Filtered allele count file
   - metrics: Filtered hmmcopy metrics
   - phasing_object: Pre-computed SIGNALS phasing object (or a dummy empty file if params.phasing_object is unset)
 output:
-  - master: tuple of (sample_id, library_id, exp_con, reads, alleles, metrics, hscn)
+  - master: tuple of (sample_id, reads, alleles, metrics, hscn)

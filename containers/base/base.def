@@ -1,0 +1,131 @@
+# Apptainer/Singularity definition file for "base" -- the shared R 4.4
+# environment used by every R-based module in this pipeline: annotate_bps,
+# filter_cells, get_bp_file, get_df, get_hdp_file, nnd, plot_heatmaps,
+# punish_baf, signals, signals_prep (10 modules).
+#
+# This cluster has no Docker daemon (only Apptainer 1.3.1, confirmed
+# installed), and Apptainer can build directly from a definition file like
+# this one using its own fakeroot emulation -- no root, no Docker, no
+# registry required. See containers/README.md for the full explanation and
+# the (optional) Dockerfile alternative for building elsewhere.
+#
+# Build (from the repo root, right on this cluster):
+#   apptainer build containers/base/base.sif containers/base/base.def
+#
+# WHY bioconductor_docker + pak, NOT a conda/micromamba env:
+# This used to be a micromamba env built from a big pinned conda spec
+# (containers/base/base.yml, now removed). That approach fought itself the
+# whole way: Bioconductor packages (ggtree, GenomicRanges, GenomeInfoDb,
+# S4Vectors, ComplexHeatmap, HMMcopy, ...) aren't on conda-forge and need the
+# separate bioconda channel; two GitHub-only packages this pipeline actually
+# needs -- signals (github.com/shahcompbio/signals) and dlptools
+# (github.com/molonc/dlptools) -- can't be conda-pinned at all, so their own
+# R-level dependencies (including a transitive one, sigminer, with no
+# bioconda build for R 4.4 on linux-64 at any point) had to be hand-added to
+# the conda spec one at a time; and conda's solver doesn't know about
+# version constraints declared in R packages' own DESCRIPTION files, so a
+# pin that looked fine (e.g. rlang=1.1.6) could still break a from-source
+# install that needed rlang >= 1.1.7, with no warning until that install ran.
+#
+# pak (https://pak.r-lib.org) solves this properly: given a mixed list of
+# CRAN, Bioconductor (`bioc::pkg`), and GitHub (`owner/repo`) package specs,
+# it resolves the FULL dependency graph -- including cross-package version
+# requirements -- in one shot, the same way install_github/install.packages
+# would if repos were configured right, but without conda's separate
+# (and separately drifting) package-name/version universe. It's also what
+# signals' and dlptools' own upstream Dockerfiles use for exactly this
+# reason (see their github.com/shahcompbio/signals and
+# github.com/molonc/dlptools Dockerfiles).
+#
+# NOTE: bioconductor/bioconductor_docker:RELEASE_3_20-R-4.4.2 is the newest
+# Bioconductor-3.20 (R 4.4 series) tag published to Docker Hub as of this
+# writing -- confirmed via the registry's tag list, since Docker Hub's own
+# tags UI only surfaces recent (BioC >= 3.21 / R >= 4.5) tags by default.
+# If that exact tag ever disappears, `3.20` or `3.19`/`3.19-R-4.4.1` are the
+# other R-4.4 options; otherwise this'll need bumping to a newer R.
+
+Bootstrap: docker
+From: bioconductor/bioconductor_docker:RELEASE_3_20-R-4.4.2
+
+%post
+    export DEBIAN_FRONTEND=noninteractive
+
+    # System libs R packages' ./configure scripts need at build time.
+    # cairo/xt: Cairo -> ggrastr (signals' Suggests) and other raster/X11
+    # graphics devices. fontconfig/freetype/harfbuzz/fribidi/png/jpeg/tiff:
+    # systemfonts/ragg/textshaping, transitively pulled in by ggplot2's text
+    # rendering stack. git2: gert (used by usethis/devtools-family
+    # packages). The rest (curl/ssl/xml2/zlib/bz2/lzma/ncurses) are the
+    # usual R-on-Linux build baseline; signals' own Dockerfile needs this
+    # same set for the same package (it builds signals directly, we're
+    # building the whole environment signals+dlptools need).
+    apt-get update && apt-get install -y --no-install-recommends \
+        build-essential \
+        pkg-config \
+        git \
+        wget \
+        libcairo2-dev \
+        libxt-dev \
+        libcurl4-openssl-dev \
+        libssl-dev \
+        libxml2-dev \
+        libfontconfig1-dev \
+        libfreetype6-dev \
+        libharfbuzz-dev \
+        libfribidi-dev \
+        libpng-dev \
+        libjpeg-dev \
+        libtiff5-dev \
+        libgit2-dev \
+        zlib1g-dev \
+        libbz2-dev \
+        liblzma-dev \
+        libncurses5-dev && \
+        apt-get clean && rm -rf /var/lib/apt/lists/*
+
+    # pak: see the WHY note above.
+    Rscript -e 'install.packages("pak", repos = sprintf("https://r-lib.github.io/p/pak/stable/%s/%s/%s", .Platform$pkgType, R.Version()$os, R.Version()$arch))'
+
+    # Everything every fg_module actually `library()`s, resolved and
+    # installed together in one pak call -- CRAN packages plain, Bioconductor
+    # packages prefixed `bioc::`, and the two GitHub-only packages as
+    # `owner/repo`. pak pulls in and version-solves every transitive
+    # dependency itself (ggtree/treeio/GenomicRanges/.../sigminer/etc. for
+    # signals+dlptools included) -- nothing else needs to be listed by hand.
+    # Version pins below work around CRAN packages having moved on from what
+    # this image's Bioconductor-3.20-era packages (ggtree 3.14.0 et al, ~Oct
+    # 2024) were built/tested against -- pak resolves CRAN packages to
+    # whatever's newest on CRAN *today*, not a release-matched snapshot:
+    #
+    # - Deriv@4.2.0: doBy (pulled in transitively, via the tidyverse/car
+    #   family) Imports `Deriv`. CRAN's current Deriv (4.3.0) added new
+    #   Rcpp-backed Deriv_cpp()/Simplify_cpp() functions that don't compile
+    #   against this R/Rcpp -- they reference `R_ClosureFormals`, which isn't
+    #   a real public R C API function (looks like a bug in that release).
+    #   4.2.0 is the last version before that C++ code was added (pure R).
+    # - ggplot2@3.5.2: ggplot2 4.0.0 did a major internal refactor (S3 -> S7)
+    #   that removed/renamed internal helpers extension packages relied on,
+    #   including one ggtree needs (`check_linewidth`) -- "object
+    #   'check_linewidth' not found" building ggtree otherwise. 3.5.2 is the
+    #   last pre-4.0 release.
+    #
+    # If a *different* CRAN package trips over this same skew later (equally
+    # possible for anything else depending on ggtree/ComplexHeatmap/HMMcopy
+    # internals), pin it here the same way rather than bumping the whole
+    # Bioconductor release -- these two are the only ones hit so far.
+    # VGAM: `signals` itself needs this at runtime for its beta-binomial
+    # model (modules/fg_modules/signals/signals.R's actual call path hits
+    # it -- "Package 'VGAM' needed to use the beta-binomial model"), but
+    # it's only in signals' own Suggests, which pak doesn't install unless
+    # asked -- add it explicitly.
+    Rscript -e 'pak::pkg_install(c("ape", "argparse", "bioc::ComplexHeatmap", "data.table", "Deriv@4.2.0", "dplyr", "fitdistrplus", "ggnewscale", "ggplot2@3.5.2", "bioc::ggtree", "googlesheets4", "gtools", "bioc::HMMcopy", "httr", "mclust", "optparse", "plyr", "purrr", "RColorBrewer", "stringr", "tibble", "tidyr", "tidyverse", "VGAM", "vroom", "shahcompbio/signals", "molonc/dlptools"), ask = FALSE)'
+
+    # Sanity-check every package this image exists to provide.
+    Rscript -e 'invisible(lapply(c("ape", "argparse", "ComplexHeatmap", "data.table", "dplyr", "fitdistrplus", "ggnewscale", "ggplot2", "ggtree", "googlesheets4", "gtools", "HMMcopy", "httr", "mclust", "optparse", "plyr", "purrr", "RColorBrewer", "stringr", "tibble", "tidyr", "tidyverse", "vroom", "signals", "dlptools"), function(p) library(p, character.only = TRUE)))'
+
+%environment
+    export LANG=C.UTF-8
+    export LC_ALL=C.UTF-8
+
+%runscript
+    exec Rscript "$@"

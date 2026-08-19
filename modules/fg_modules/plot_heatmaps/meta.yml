@@ -6,7 +6,7 @@ description: >
   the MEDICC2 tree.
 script: plot_heatmaps.R
 input:
-  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - sample_id: Tracking id, passthrough
   - hdp_segs_file / _A / _B: HDP segments from get_hdp_file
   - reads_2, alleles, metrics, hscn, tree, cnprofiles, segs: Passthrough
   - segs_bp_anno / _A / _B: Annotated segments from annotate_bps
@@ -14,5 +14,5 @@ input:
   - breakpoint_functions: helper/breakpoint_file_functions.R
   - ref_bins: helper/hg19_annotated_bins.csv
 output:
-  - CNV_ABSOLUTE_<library_id>.png, CNV_FOREGROUND_<library_id>.png,
-    CNV_FOREGROUND_EDGES_<library_id>.png, and allele-specific variants (optional)
+  - CNV_ABSOLUTE_<sample_id>.png, CNV_FOREGROUND_<sample_id>.png,
+    CNV_FOREGROUND_EDGES_<sample_id>.png, and allele-specific variants (optional)

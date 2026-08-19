@@ -5,7 +5,7 @@ description: >
   breakpoint annotation.
 script: assemble_full_df.R
 input:
-  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - sample_id: Tracking id, passthrough
   - reads, alleles, metrics, hscn, tree, cnprofiles: Passthrough
   - segs: Per-segment foreground states from the foreground module
   - dummy: helper/dummy_cell.csv (placeholder cell row)
@@ -13,4 +13,4 @@ input:
   - breakpoint_functions: helper/breakpoint_file_functions.R, sourced by downstream R scripts
   - tcn_bool: params.tcn
 output:
-  - master: tuple of (..., <library_id>_reads_final.csv.gz, breakpoint_functions)
+  - master: tuple of (..., <sample_id>_reads_final.csv.gz, breakpoint_functions)

@@ -4,10 +4,10 @@ description: >
   Divergence filtering is optional and controlled by params.filter_divergent.
 script: filter_cells.R
 input:
-  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - sample_id: Tracking id, passthrough
   - reads, alleles, metrics: Passthrough
   - hscn: Haplotype-specific copy number table
   - all_nnd: Per-cell NND table
   - punish: Punishment data from punish_baf
 output:
-  - master: tuple of (sample_id, library_id, exp_con, reads, alleles, metrics, hscn_filtered, all_nnd, punish)
+  - master: tuple of (sample_id, reads, alleles, metrics, hscn_filtered, all_nnd, punish)

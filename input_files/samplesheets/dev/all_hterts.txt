@@ -1,2 +1,3 @@
-A118397A	AT9253	A	AX9050	AX9126
-A118423A	AT9255	A	AX7818	AX8423
+sample_id,reads,allele,metrics
+A118397A_AT9253_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118397A_AT9253_A/AT9253_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118397A_AT9253_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118397A_AT9253_A/AT9253_A_hmmcopy_metrics.csv.gz
+A118423A_AT9255_A,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118423A_AT9255_A/AT9255_A_hmmcopy_reads.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118423A_AT9255_A/10639-CL_allele_count.csv.gz,/projects/molonc/scratch/ahamazaki/jira/MAGIC199/data/all_magic/A118423A_AT9255_A/AT9255_A_hmmcopy_metrics.csv.gz

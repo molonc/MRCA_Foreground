@@ -5,8 +5,8 @@ description: >
   total and allele-specific (A/B) states.
 script: get_bp_file.R
 input:
-  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - sample_id: Tracking id, passthrough
   - segs_bp_anno / _A / _B: Annotated segments from annotate_bps (total, allele A, allele B)
   - breakpoint_functions: helper/breakpoint_file_functions.R
 output:
-  - master: tuple of (..., <library_id>-<sample_id>_breakpoint_file.csv.gz, _A.csv.gz, _B.csv.gz)
+  - master: tuple of (..., <sample_id>_breakpoint_file.csv.gz, _A.csv.gz, _B.csv.gz)

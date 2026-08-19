@@ -5,11 +5,9 @@ description: >
   the NND distribution (manhattan distance, 99th-percentile threshold).
 script: nnd_beta_divergence_punishment.R
 input:
-  - sample_id: Sample identifier
-  - library_id: Library identifier
-  - exp_con: Experimental condition
+  - sample_id: Tracking id from the samplesheet; names the results subdirectory
   - reads, alleles, metrics: Passthrough from signals_prep
   - hscn: Haplotype-specific copy number table from the signals module
 output:
-  - master: tuple of (sample_id, library_id, exp_con, reads, alleles, metrics, hscn, all_cells_nnd table)
+  - master: tuple of (sample_id, reads, alleles, metrics, hscn, all_cells_nnd table)
   - QC plots: divergent-cell heatmap, NND density/QQ plots, beta-fit parameters

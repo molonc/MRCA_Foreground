@@ -10,3 +10,7 @@ symlink_output/
 *.nfs*
 __pycache__/
 *.pyc
+
+# Built container images -- multi-GB binaries, rebuild from containers/*/*.def
+# (or *.Dockerfile) instead of committing. See containers/README.md.
+*.sif

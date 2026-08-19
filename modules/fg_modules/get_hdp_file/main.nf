@@ -1,17 +1,17 @@
 process GET_HDP_FILE {
     label 'copy_output'
-    tag "${library_id}-${sample_id}-${exp_con}"
+    tag "${sample_id}"
     label 'process_single'
 
-    conda "${moduleDir}/r44.yml"
+    container params.base_container
 
     input:
-        tuple val(sample_id), val(library_id), val(exp_con), path(reads_2), path(alleles), path(metrics), path(hscn), path(tree), path(cnprofiles), path(segs), path(segs_bp_anno), path(segs_bp_anno_A), path(segs_bp_anno_B), path(breakpoint_functions)
+        tuple val(sample_id), path(reads_2), path(alleles), path(metrics), path(hscn), path(tree), path(cnprofiles), path(segs), path(segs_bp_anno), path(segs_bp_anno_A), path(segs_bp_anno_B), path(breakpoint_functions)
     output:
-        tuple val(sample_id), val(library_id), val(exp_con),
-              path("${library_id}-${sample_id}_hdp_segs.csv.gz"),
-              path("${library_id}-${sample_id}_hdp_segs_A.csv.gz"),
-              path("${library_id}-${sample_id}_hdp_segs_B.csv.gz"),
+        tuple val(sample_id),
+              path("${sample_id}_hdp_segs.csv.gz"),
+              path("${sample_id}_hdp_segs_A.csv.gz"),
+              path("${sample_id}_hdp_segs_B.csv.gz"),
               emit: master
 
     script:
@@ -64,7 +64,7 @@ process GET_HDP_FILE {
         TRUE ~ edge
     ))
 
-    data.table::fwrite(hdp, file = "${library_id}-${sample_id}_hdp_segs.csv.gz",
+    data.table::fwrite(hdp, file = "${sample_id}_hdp_segs.csv.gz",
                        sep = ",", row.names = FALSE, quote = FALSE, compress = "gzip")
 
     ## ── Allele-specific HDP segs (A and B) ───────────────────────────────────────
@@ -160,7 +160,7 @@ process GET_HDP_FILE {
                 ) %>%
                 select(chr, start, end, state_fg, cell_id, Name, background_CNV, width, edge)
 
-            out_name <- paste0("${library_id}-${sample_id}_hdp_segs_", allele_letter, ".csv.gz")
+            out_name <- paste0("${sample_id}_hdp_segs_", allele_letter, ".csv.gz")
             data.table::fwrite(hdp_allele_out, file = out_name,
                                sep = ",", row.names = FALSE, quote = FALSE, compress = "gzip")
             message("Wrote allele ", allele_letter, " HDP segs to: ", out_name)
@@ -170,9 +170,9 @@ process GET_HDP_FILE {
         empty_hdp <- data.frame(chr=character(), start=numeric(), end=numeric(),
                                 state_fg=numeric(), cell_id=character(), Name=character(),
                                 background_CNV=numeric(), width=numeric(), edge=character())
-        data.table::fwrite(empty_hdp, file="${library_id}-${sample_id}_hdp_segs_A.csv.gz",
+        data.table::fwrite(empty_hdp, file="${sample_id}_hdp_segs_A.csv.gz",
                            sep=",", compress="gzip")
-        data.table::fwrite(empty_hdp, file="${library_id}-${sample_id}_hdp_segs_B.csv.gz",
+        data.table::fwrite(empty_hdp, file="${sample_id}_hdp_segs_B.csv.gz",
                            sep=",", compress="gzip")
     }
     """

@@ -8,14 +8,13 @@ main <- function() {
   
   args <- commandArgs(trailingOnly = TRUE)
   if (length(args) < 2) {
-    stop("Please provide both 'reads' and 'library_id' arguments.")
+    stop("Please provide both 'reads' and 'sample_id' arguments.")
   }
 
   annosegs_file <- args[1]
-  library_id <- args[2]
-  sample_id <- args[3]
-  breakpoint_functions <- args[4]
-  allele_suffix <- if (length(args) >= 5 && nchar(args[5]) > 0) paste0("_", args[5]) else ""
+  sample_id <- args[2]
+  breakpoint_functions <- args[3]
+  allele_suffix <- if (length(args) >= 4 && nchar(args[4]) > 0) paste0("_", args[4]) else ""
   source(breakpoint_functions)
 
   annotated_segs <- vroom::vroom(annosegs_file,
@@ -40,7 +39,7 @@ main <- function() {
     
   breakpoints_df <- do.call(rbind, lo_breakpoints)
 
-  output_file <- paste0(library_id, "-", sample_id, "_breakpoint_file", allele_suffix, ".csv.gz")
+  output_file <- paste0(sample_id, "_breakpoint_file", allele_suffix, ".csv.gz")
   print(paste("Saving breakpoint file to:", output_file))
   write.csv(breakpoints_df, output_file, row.names = FALSE, quote = TRUE, na = "NA")
   print("Done")

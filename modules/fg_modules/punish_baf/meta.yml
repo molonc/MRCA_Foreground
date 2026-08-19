@@ -4,7 +4,7 @@ description: >
   punishment/error metric used downstream to flag noisy allele calls.
 script: BAF_punishment_score_metric.R
 input:
-  - sample_id, library_id, exp_con: Identifiers, passthrough
+  - sample_id: Tracking id, passthrough
   - reads, alleles, metrics: Passthrough
   - hscn: Haplotype-specific copy number table
   - all_nnd: Per-cell NND table from the nnd module

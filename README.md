@@ -27,19 +27,45 @@ module's environment automatically from its tracked `.yml` file the first time i
 
 ## Required Input Files
 
-For each library, the pipeline expects three files under `params.data_dir`, in a
-`<library_id>_<sample_id>_<exp_con>/` subdirectory:
+Every sample needs three files: an hmmcopy reads file, an hmmcopy metrics file, and an
+allele-count file. **The pipeline does not search for these itself** — no directory-naming
+convention, no filename globbing. You tell it exactly where each file is, per sample, via a
+required samplesheet.
 
-- `*_hmmcopy_reads.csv.gz`
-- `*_hmmcopy_metrics.csv.gz`
-- `*_allele_count.csv.gz`
+Start a new sheet from [`input_files/samplesheets/TEMPLATE.csv`](input_files/samplesheets/TEMPLATE.csv).
+It's a header CSV with one row per sample and four required columns:
 
-and a tab-separated samplesheet (see `input_files/samplesheets/`) with one library per line:
-`library_id  sample_id  experimental_condition  qc_ax  counthaps_ax`.
+| column | meaning |
+|---|---|
+| `sample_id` | This row's tracking id — see below |
+| `reads` | Path to this sample's `*hmmcopy_reads.csv.gz` |
+| `allele` | Path to this sample's `*allele_count.csv.gz` |
+| `metrics` | Path to this sample's `*hmmcopy_metrics.csv.gz` |
+
+`sample_id` is the pipeline's **only** tracking key: it's the tag on every process, and it names
+that row's results subdirectory (`${out_dir}/${sample_id}/...`). It must be non-empty and unique
+across the sheet — the pipeline checks both up front — but its structure is entirely up to you.
+It can be a plain library ID, or a composite string if that's what's actually unique in your data;
+e.g. this repo's own cohorts use `<library_id>_<sample_id>_<exp_con>` (matching their old
+directory-naming convention) as the value in this one column.
+
+`reads`/`allele`/`metrics` paths can be absolute, or relative to the samplesheet's own location
+(so a samplesheet and its data can be shared as a self-contained unit without hardcoding a
+machine-specific prefix). `params.input` pointing at a samplesheet is required — the pipeline
+errors out immediately, with the exact missing column/file/duplicate-id named, if it isn't set or
+a row is incomplete.
+
+If your data already lives in the older `<library_id>_<sample_id>_<exp_con>/` per-folder layout
+(one dir per library, each holding exactly one file matching each of the three suffixes above),
+`helper_scripts/generate_samplesheet.py` will build/migrate a samplesheet for you from it — see
+that script's docstring. It composes `sample_id` as `<library_id>_<sample_id>_<exp_con>` (so
+existing result paths don't change) and flags (skips, rather than guesses) any library whose
+folder has zero or more-than-one match for a given file type, so an ambiguous folder can't
+silently produce a wrong run.
 
 ## Running the Pipeline
 
-Cohort-specific parameters (`out_dir`, `data_dir`, `phasing_object`, `input`, ...) are supplied via
+Cohort-specific parameters (`out_dir`, `phasing_object`, `input`, ...) are supplied via
 a per-cohort config under `conf/main/` (production cohorts) or `conf/dev/` (fast/scratch runs) —
 see those directories for examples, including `conf/main/paper_example.config`, a small
 reviewer-facing example run.
@@ -52,14 +78,17 @@ Key params (set per-cohort in `conf/main/*.config` / `conf/dev/*.config`):
 
 | param | meaning |
 |---|---|
-| `data_dir` | Directory containing per-library input folders (see above) |
+| `input` | **Required.** Path to the samplesheet (see above) |
 | `out_dir` | Output directory |
-| `input` | Path to the tab-separated samplesheet |
 | `phasing_object` | Path to a pre-computed SIGNALS phasing object (optional; a dummy empty file is used if unset) |
 | `tcn` | `true` = total-copy-number-only MEDICC2 mode; `false` = allele-aware mode with WGD detection |
 | `include_s_phase` | Whether to retain S-phase cells during QC filtering |
 | `filter_divergent` | Whether to drop divergent cells identified by the NND/BAF steps |
 | `num_cells_returned` | If set, keep only the top-N cells by quality after filtering |
+
+> `data_dir` is no longer read by the pipeline (file locations now come entirely from the
+> samplesheet) but is still set in some existing cohort configs; it's harmless to leave and safe
+> to delete whenever those configs are next touched.
 
 ## Pipeline Steps
 
@@ -89,14 +118,16 @@ exact inputs/outputs.
 
 ## Output Files
 
+Every output lands under a subdirectory named after that row's `sample_id`:
+
 ```
 results/
-├── ${library_id}_${sample_id}_${exp_con}/
-   ├── ${library_id}-${sample_id}_breakpoint_file.csv.gz  # See below on breakpoint_file format
-   ├── ${library_id}-${sample_id}_hdp_segs.csv.gz         # See below on HDP file format
-   ├── CNV_ABSOLUTE_${library_id}.png                     # Heatmap of absolute (background) CN
-   ├── CNV_FOREGROUND_${library_id}.png                   # Heatmap of foreground CN
-   ├── CNV_FOREGROUND_EDGES_${library_id}.png             # Heatmap with breakpoint-edge annotation
+├── ${sample_id}/
+   ├── ${sample_id}_breakpoint_file.csv.gz  # See below on breakpoint_file format
+   ├── ${sample_id}_hdp_segs.csv.gz         # See below on HDP file format
+   ├── CNV_ABSOLUTE_${sample_id}.png        # Heatmap of absolute (background) CN
+   ├── CNV_FOREGROUND_${sample_id}.png      # Heatmap of foreground CN
+   ├── CNV_FOREGROUND_EDGES_${sample_id}.png  # Heatmap with breakpoint-edge annotation
 ```
 
 ### Breakpoint file
